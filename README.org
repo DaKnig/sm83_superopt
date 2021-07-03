@@ -1,0 +1,23 @@
+* SM83 superoptimizer (name pending^TM)
+
+this is gonna be a superoptimizer/synthesizer for sm83 asm.
+
+input: C function for the host or asm code/machine code for the sm83.
+
+params: 
+
+1. grading function - or mode of operation; optimize for what?
+
+2. code generator
+
+output: superoptimized sm83 asm code that is equivalent to the input,
+and is the best possible code to solve this. "best" is defined as "highest
+score according to the grading function" so in the common cose this means the
+smallest or fastest code to solve a problem.
+
+** Goals
+
+1. speed - speed is king; must be as fast and as efficient as possible at the
+	cost of everything else; that's the most important thing.
+2. portability - wanna run it on the most common hardware configs; currently
+	the target is CPUs.

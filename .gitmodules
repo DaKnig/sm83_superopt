@@ -1,0 +1,3 @@
+[submodule "gb_cpu_emu_cpp_2"]
+	path = gb_cpu_emu_cpp_2
+	url = git@github.com:DaKnig/gb_cpu_emu_cpp_2.git
